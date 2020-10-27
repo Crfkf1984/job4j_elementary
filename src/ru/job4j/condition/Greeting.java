@@ -10,7 +10,5 @@ public class Greeting {
          int year = 2020;
          String slovo1 = slovo + year;
          System.out.println(slovo1);
-
-
      }
 }
