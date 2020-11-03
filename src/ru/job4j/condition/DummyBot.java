@@ -15,7 +15,6 @@ public class DummyBot {
             return "Это ставит меня в тупик. Задайте другой вопрос.";
     }
 
-
     public static void main(String[] args) {
         String rsl = DummyBot.answer("Привет, Бот.");
         System.out.println(rsl);
