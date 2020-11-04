@@ -15,4 +15,11 @@ public class TriangleTest {
         boolean result = Triangle.exist(3.0, 3.0, 3.0);
         assertThat(result, is(true));
     }
+
+    @Test
+    public void exist2() {
+
+        boolean result = Triangle.exist(3.0, 3.0, 6.0);
+        assertThat(result, is(true));
+    }
 }
