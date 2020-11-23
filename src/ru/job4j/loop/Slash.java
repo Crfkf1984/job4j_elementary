@@ -13,7 +13,7 @@ public class Slash {
                     left = true;
                 }
 
-                if ((row + cell) % 2 == 0 && size - cell == 4) {
+                if (cell == size - 1 - cell) {
                     right = true;
                 }
                     if (left) {
