@@ -9,27 +9,25 @@ public class Slash {
                 boolean left = false;
                 boolean right = false;
 
-                if ((row + cell) % 2 == 0) {
+                if (row == cell) {
                     left = true;
                 }
 
-                if (cell == size - 1 - cell) {
+                if (row == size - cell - 1) {
                     right = true;
                 }
-                    if (left) {
-                        System.out.print("0");
-                    } else if (right) {
-                        System.out.print("0");
-                    } else {
-                        System.out.print(" ");
-                    }
-            }
 
+                if (left) {
+                    System.out.print("0");
+                } else if (right) {
+                    System.out.print("0");
+                } else {
+                    System.out.print(" ");
+                }
+            }
             System.out.println();
         }
     }
-
-
 
     public static void main(String[] args) {
         System.out.println("Draw by 3");
