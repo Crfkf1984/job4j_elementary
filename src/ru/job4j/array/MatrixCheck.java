@@ -18,7 +18,6 @@ public class MatrixCheck {
             if ('X' != board[i][column]) {
                     result = false;
                     break;
-
             }
         }
         return result;
