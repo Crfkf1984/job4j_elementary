@@ -17,8 +17,7 @@ public class Defragment {
             System.out.print(array[index] + " ");
         }
            return array;
-}
-    public static void main(String[] args) {
+}       public static void main(String[] args) {
         String[] input = {"I", null, "wanna", null, "be", null, "compressed"};
         String[] compressed = compress(input);
         System.out.println();
