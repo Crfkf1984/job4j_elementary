@@ -24,7 +24,14 @@ public class MaxTest {
     @Test
     public void max3() {
 
-        int result = Max.max(2, 2);
-        assertThat(result, is(2));
+        int result = Max.max(2, 2, 3);
+        assertThat(result, is(3));
+    }
+
+    @Test
+    public void max4() {
+
+        int result = Max.max(2, 2, 3, 3);
+        assertThat(result, is(3));
     }
 }
